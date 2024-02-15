@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".Fragments.ProfileFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+
+        android:layout_height="wrap_content">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/user_profile_image"
+        android:src="@drawable/person"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+
+
+        />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/name"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+            <TextView
+                android:id="@+id/email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/email"
+                android:textSize="16dp"
+                android:textStyle="italic"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_marginTop="10dp"
+        android:id="@+id/view_with_border"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@drawable/border"
+        android:padding="8dp" />
+
+    <Button
+        android:id="@+id/view_channel_btn"
+        style="@style/Widget.Material3.Button.OutlinedButton.Icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="View Channel"
+        android:textSize="18sp"
+        android:gravity="left"
+
+         />
+    <Button
+        android:id="@+id/history_btn"
+        style="@style/Widget.Material3.Button.OutlinedButton.Icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="History"
+        android:textSize="18sp"
+        android:gravity="left"
+
+        />
+    <Button
+        android:id="@+id/edit_profile_btn"
+        style="@style/Widget.Material3.Button.OutlinedButton.Icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Edit Profile"
+        android:textSize="18sp"
+        android:gravity="left"
+
+        />
+    <Button
+        android:id="@+id/log_out_btn"
+        style="@style/Widget.Material3.Button.OutlinedButton.Icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Log out"
+        android:textSize="18sp"
+        android:gravity="left"
+
+        />
+
+</LinearLayout>
+

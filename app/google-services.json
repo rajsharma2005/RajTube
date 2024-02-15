@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "797349505012",
+    "project_id": "rajtube-9c122",
+    "storage_bucket": "rajtube-9c122.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:797349505012:android:06263ca9f447d89cf4fba1",
+        "android_client_info": {
+          "package_name": "com.example.rajtube"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_zd5naO85V4gxuKB6UF9hy-XXKNMxohQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
